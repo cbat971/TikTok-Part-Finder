@@ -1,11 +1,41 @@
 html {
-	background-color: darkviolet;
+	background: #EBE5DC;
 }
-body {
-	color: limegreen;
-	font-size: 18px;
-	font-weight: bold;
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 15px 0px 15px 0px ;
+	background-color: transparent;
+	overflow: hidden;
+}
+li {
+  display: inline;
+  color: #393C43;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar li:hover {
+  background-color: black;
+  color: white;
 }
 input {
-	size:
+	background: #fff;
+	display: flex;
+	border: 2px solid #dfe1e5;
+	/*border-radius: 24px;*/
+	height: 44px;
+	margin: 24px auto;
+}
+
+@media screen and (min-width: 920px){
+	.content{
+		display: flex;
+		width: 75%;
+		margin: auto;
+	}
+	.tiktok-embed{
+		float: left;
+	}
 }
